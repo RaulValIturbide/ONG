@@ -1,2 +1,2 @@
 # ONG
-Trabajo para utilizar el compare_to o el Comparable
+Trabajo para utilizar el compare_to y el Comparable
