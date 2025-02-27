@@ -26,7 +26,6 @@ public class main {
      */
     public static void main(String[] args) {
         GestionSocio gs = new GestionSocio();
-        
 
         int usuario;
 
@@ -51,7 +50,6 @@ public class main {
                             Collections.sort(gs.getListaSocio(), Socio.compararEdad);
                             gs.listar();
                             break;
-
                     }
 
                     break;
@@ -59,10 +57,6 @@ public class main {
                     System.out.println("Un placer, esperamos que vuelva pronto");
             }
         } while (usuario != 0);
-
-        Collections.sort(gs.getListaSocio());
-
-        Collections.sort(gs.getListaSocio(), Socio.compararEdad);
 
     }
 
